@@ -1,0 +1,63 @@
+nav{
+	background-color: #7A074C;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+h1{
+	display: flex;
+	justify-content: center;
+}
+
+
+main{
+	background-color: #fddcdc42;
+}
+
+footer{
+	background-color: #7A074C;
+}
+
+.logo{
+	width: 50px;
+
+}
+
+h1{
+	padding: 60px;
+	padding-bottom: 40px;
+}
+section{
+	padding: 60px;
+}
+.row{
+	justify-content: center;
+}
+
+.img-evento{
+	border-radius: 35px;
+}
+
+h5{
+	text-align: center;
+}
+
+
+
+body {
+    font-family: Rubik;
+    color: #211866;
+}
+
+.titulo{
+	color: #7A074CE5;
+}
+
+footer{
+	color: white;
+	align-items: flex-end;
+}
+
+
+
+
