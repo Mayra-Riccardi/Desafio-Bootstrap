@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="contenedor-padre">
+	<!--inicio encabezado-->
+     <header class="contenedor-padre--header">
+     <!--logo-->
+         <div>
+             <img class="logo" src="../assets/img/copa-blancoyuva.png" alt="logo" class="header__logo__img">
+         </div>
+     <!--cierre logo--> 
+     <!--inicio nav-->
+         <nav class="nav">
+         	<ul class="header__nav">
+     	 	    <li class="nav__item"><a href="../index.html" class="nav__item--color">INICIO</a></li>
+     	 	    <li class="nav__item"><a href="eventos.html" class="nav__item--color">EVENTOS</a></li>
+     	 	    <li class="nav__item"><a href="mapa de vinotecas.html" class="nav__item--color">MAPA DE VINOTECAS<a/></li>
+     	 	    <li class="nav__item"><a href="sobre nosotros.html" class="nav__item--color">SOBRE NOSOTROS</a></li>
+                <li class="nav__item"><a href="#" class="nav__item--color">CONTACTO<a/></li>
+             </ul>
+         </nav>
+     <!--cierre nav-->
+     </header> 
+    <!--cierre encabezado-->
+    <!-- inicio contenido -->
+    <main class="contenedor-padre--main">
+        <div class="main__contacto">
+            <h1 class="main__encabezado__contacto main__encabezado__contacto--color main__encabezado__contacto--fuente">CONTACTO</h1>
+        </div>
+        <!-- FORMULARIO DE CONTACTO -->
+        <form action="#" class="main__form main__form background main__form--font">
+            <label for="nombre">Nombre:
+                 <input type="text" name="nombre" class="form__background">
+            </label><br>
+            <label for="apellido">Apellido:
+                 <input type="text" name="apellido" class="form__background">
+            </label><br>
+            <label for="mail">Mail:
+                <input type="mail" name="mail" class="form__background">
+            </label><br>
+            <label for="edad">
+                Edad:
+                <input type="number" name="edad" class="form__background">
+            </label>
+            <div>
+                Querés saber sobre:
+            </div>
+            <div>Vinos
+                <input type="radio" name="direccion" value="vin">
+            </div>
+            <div>Mapa de Vinotecas
+                <input type="radio" name="direccion1" value="vinot">
+            </div>
+            <div>Eventos
+                <input type="radio" name="direccion2" value="eve">
+            </div>
+            <div>
+                COMENTARIOS
+            </div>
+            <div>
+                <textarea class="form__comentarios" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>Acepto términos y condiciones
+                <input type="checkbox" name="acepatr" value="1">
+            </div>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="RESET">
+            <input type="button" value="NO HAGO NADA">
+        </form>
+    </main>
+    <!--inicio footer-->
+     <footer class="contenedor-padre--footer">
+        <!--logo-->
+       <div>
+        <img class="logo" src="../assets/img/copa-blancoyuva.png" alt="logo">
+        </div>
+        <!--redes sociales-->
+         <div class="redes-sociales">
+            <img src="../assets/img/instagram.png" alt="instagram" class="footer__logoinstagram">
+            <img src="../assets/img/facebook.png" alt="facebook" class="footer__logofacebook">
+         </div>
+     </footer>
+     <!--cierre footer-->
+ </div>
+</body>
+</html>
